@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background: rgb(55, 53, 53);
+  color: black;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  text-transform: capitalize;
+  transition: 0.9s all;
+  border-radius: 30px;
+  width: 100vw;
+}
+h1:hover {
+  color: white;
+  background: #7e634d;
+}
+
+p {
+  color: black;
+  color: black;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  text-transform: capitalize;
+  transition: 0.9s all;
+  background: rgb(67, 67, 51);
+  border-radius: 30px;
+  width: 70vw;
+  margin-top: 10px;
+}
+p:hover {
+  color: white;
+  background: #7e634d;
+}
+
+.main-header {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: #0cbba3;
+}/*# sourceMappingURL=main.css.map */

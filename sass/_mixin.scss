@@ -1,0 +1,13 @@
+@mixin FlexProb {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+@mixin CommonCode($para1, $Color) {
+  color: $Color;
+  font-size: $para1;
+  letter-spacing: 1rem;
+  text-transform: capitalize;
+}

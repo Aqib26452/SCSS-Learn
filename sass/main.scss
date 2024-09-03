@@ -1,0 +1,46 @@
+@import "mixin";
+@import "var";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//Main cover topic
+// 1: Operator
+// 2:Variable
+// 3:Nesting inside tage use another styling like hover
+// 4:Mixin
+// 5:Parameter
+
+h1 {
+  background: $Line-green;
+  @include CommonCode(5rem, black);
+  transition: 0.9s all;
+  border-radius: 30px;
+  width: 100vw;
+  &:hover {
+    color: white;
+    background: #7e634d;
+  }
+}
+p {
+  color: black;
+  @include CommonCode(5rem, black);
+  transition: 0.9s all;
+  background: $Line-mix;
+  border-radius: 30px;
+  width: 70vw;
+  margin-top: 10px;
+  &:hover {
+    color: white;
+    background: #7e634d;
+  }
+}
+.main-header {
+  @include FlexProb;
+  width: 100vw;
+  height: 100vh;
+  background: #0cbba3;
+}
